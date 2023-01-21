@@ -1,0 +1,161 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+.container__lixi-box {
+    padding: 12px 12px 0 12px;
+    width: 100%;
+    height: 160px;
+}
+.user__join {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+.user__join .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tree__gold {
+    margin: 16px 0;
+}
+
+.tree__gold img{
+    width: 100%;
+    height: 100%;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user__join .container .title h3{
+    font-size: 20px;
+    margin: 12px 0 !important;
+    font-weight: 600;
+    color: aquamarine;
+}
+
+.btnLixi__container {
+    width: 100%;
+    height: 80px;
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__Lixi {
+    padding: 6px 8px;
+    background-color: rgb(224, 255, 150);
+    border: 0;
+    border-radius: 15px;
+    color: rgb(226, 36, 32);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user__lixi {
+    display: flex;
+}
+
+.box__loading {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#myProcess {
+    width: 70%;
+    height: 15px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+#myBar {
+    height: 100%;
+    width: 0%;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+
+#message {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(109, 109, 109, 0.859);
+}
+
+#message .text-center {
+    margin: 65% 8px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/hinh-nen-powerpoint-tet-14-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    color: #fff;
+    border: 0;
+}
+
+#message .text-center .card-header {
+    background-color: rgba(255, 0, 0, 0.527);
+    color: #fff;
+    border-radius: 15px;
+}
+
+#message .text-center .card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+#message .text-center .card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-primary {
+    border: 0;
+    font-size: 14px;
+}
+
+.catch__cat {
+    position: absolute;
+    top: 165px;
+    left: 120px;
+    width: 30px;
+    height: 30px;
+}
+
+.catch__cat .cat {
+    width: 100%;
+    height: 100%;
+}

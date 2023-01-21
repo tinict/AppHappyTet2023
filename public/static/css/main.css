@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://img.freepik.com/premium-vector/happy-new-year-2023-seamless-pattern-design-with-decoration-hand-drawn-cartoon-flat-illustration_2175-9761.jpg);
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.justify-content-center {
+    margin-top: 60px;
+}
+
+.card-title {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    #root {
+        display: none;
+    }
+}
